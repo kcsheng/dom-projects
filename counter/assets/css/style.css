@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showNumber {
+  border: 1px solid purple;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 180px;
+}
+
+.control {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+button {
+  font-size: 30px;
+}
